@@ -24,13 +24,17 @@ conda @ file:///home/conda/feedstock_root/build_artifacts/conda_1744220005005/wo
 conda-libmamba-solver @ file:///home/conda/feedstock_root/build_artifacts/conda-libmamba-solver_1742219570693/work/src
 conda-package-handling @ file:///home/conda/feedstock_root/build_artifacts/conda-package-handling_1736345463896/work
 conda_package_streaming @ file:///home/conda/feedstock_root/build_artifacts/conda-package-streaming_1751548120229/work
+contourpy==1.3.3
+cycler==0.12.1
 dataclasses-json==0.6.7
 debugpy==1.8.15
 decorator==5.2.1
 defusedxml==0.7.1
 distro @ file:///home/conda/feedstock_root/build_artifacts/distro_1734729835256/work
+et_xmlfile==2.0.0
 executing==2.2.0
 fastjsonschema==2.21.1
+fonttools==4.59.0
 fqdn==1.5.1
 frozendict @ file:///home/conda/feedstock_root/build_artifacts/frozendict_1728841327252/work
 frozenlist==1.7.0
@@ -66,9 +70,11 @@ jupyter_server_terminals==0.5.3
 jupyterlab==4.4.5
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
+kiwisolver==1.4.8
 langchain==0.3.27
 langchain-community==0.3.27
 langchain-core==0.3.72
+langchain-experimental==0.3.4
 langchain-openai==0.3.28
 langchain-text-splitters==0.3.9
 langgraph==0.6.2
@@ -80,11 +86,13 @@ lark==1.2.2
 libmambapy @ file:///home/conda/feedstock_root/build_artifacts/mamba-split_1746515836725/work/libmambapy
 MarkupSafe==3.0.2
 marshmallow==3.26.1
+matplotlib==3.10.5
 matplotlib-inline==0.1.7
 menuinst @ file:///home/conda/feedstock_root/build_artifacts/menuinst_1753546258937/work
 mistune==3.1.3
 multidict==6.6.3
 mypy_extensions==1.1.0
+narwhals==2.0.1
 nbclient==0.10.2
 nbconvert==7.16.6
 nbformat==5.10.4
@@ -92,14 +100,18 @@ nest-asyncio==1.6.0
 notebook_shim==0.2.4
 numpy==2.3.2
 openai==1.98.0
+openpyxl==3.1.5
 orjson==3.11.1
 ormsgpack==1.10.0
 overrides==7.7.0
 packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1745345660/work
+pandas==2.3.1
 pandocfilters==1.5.1
 parso==0.8.4
 pexpect==4.9.0
+pillow==11.3.0
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1746710438/work
+plotly==6.2.0
 pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1747339660894/work
 prometheus_client==0.22.1
 prompt_toolkit==3.0.51
@@ -113,10 +125,12 @@ pydantic==2.11.7
 pydantic-settings==2.10.1
 pydantic_core==2.33.2
 Pygments==2.19.2
+pyparsing==3.2.3
 PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 python-json-logger==3.3.0
+pytz==2025.2
 PyYAML==6.0.2
 pyzmq==27.0.1
 referencing==0.36.2
@@ -129,6 +143,7 @@ rfc3987-syntax==1.1.0
 rpds-py==0.26.0
 ruamel.yaml @ file:///home/conda/feedstock_root/build_artifacts/ruamel.yaml_1749479934053/work
 ruamel.yaml.clib @ file:///home/conda/feedstock_root/build_artifacts/ruamel.yaml.clib_1728724466132/work
+seaborn==0.13.2
 Send2Trash==1.8.3
 setuptools==80.9.0
 six==1.17.0
@@ -148,6 +163,7 @@ types-python-dateutil==2.9.0.20250708
 typing-inspect==0.9.0
 typing-inspection==0.4.1
 typing_extensions==4.14.1
+tzdata==2025.2
 uri-template==1.3.0
 urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1750271362675/work
 wcwidth==0.2.13

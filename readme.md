@@ -14,4 +14,5 @@ pip install -r requirements.txt
 # Vaults 
 our obsidian vaults are now here. but dont work.
 
- 
+ # adding submodules
+ git submodule add https://github.com/anthropics/prompt-eng-interactive-tutorial.git submodules/prompt-eng-interactive-tutorial
