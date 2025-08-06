@@ -1,0 +1,3 @@
+[submodule "submodules/prompt-eng-interactive-tutorial"]
+	path = submodules/prompt-eng-interactive-tutorial
+	url = https://github.com/anthropics/prompt-eng-interactive-tutorial.git

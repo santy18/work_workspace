@@ -12,5 +12,6 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 # Vaults 
-our obsidian vaults are now here
+our obsidian vaults are now here. but dont work.
+
  
