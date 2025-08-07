@@ -155,7 +155,12 @@ graph.add_edge("execute", END)
 # # Compile the graph
 app = graph.compile()
 
+# from IPython.display import Image, display
 
+# try:
+#     display(Image(data=app.get_graph().draw_mermaid_png()))
+# except Exception as e:
+#     print(f"Error displaying graph: {e}")
 # Run it
 
 input_state = {"input": "create a calculator"}
