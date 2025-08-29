@@ -28,10 +28,10 @@ def chunk_text(text, max_tokens=CHUNK_TOKEN_LIMIT):
 def extract_text_with_llm(chunk):
     prompt = f"""You are a cleaning bot. Remove all HTML tags and keep only the human-readable text.
 
-HTML:
-{chunk}
+    HTML:
+    {chunk}
 
-Cleaned text:"""
+    Cleaned text:"""
 
     response = openai.ChatCompletion.create(
         model=MODEL,
